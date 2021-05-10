@@ -1,0 +1,129 @@
+/* banner design  */
+.banner {
+    
+    background: url(imges/banner.jpg);
+    background-blend-mode: multiply;
+    position: relative;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0 50px;
+}
+.banner-content h2 {
+    text-transform: uppercase;
+    margin:0;
+    padding:0;
+    font-size: 3em;
+}
+
+
+.banner-content {
+    text-align: center;
+    /* background-color: rgba(0,0,0,.4); */
+    color:white;
+}
+
+
+.btn-margin {
+    margin-left: 5px;
+}
+
+/* design of card */
+
+.card h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+.card-text, .card-title{
+    text-align: center;
+}
+
+.score-card h2 {
+    color:#198754;
+    font-weight: bolder;
+}
+.score-card h4{
+    color: rgba(0,0,0,.3);
+    font-weight: 500;
+} 
+
+.score-card {
+    background-color: #ededed;
+    padding: 50px 0;
+    text-align: center;
+    width: 100%;
+}
+
+/* footer  */
+.footer-top p{
+    color: #999;
+    line-height: 25px;
+}
+.footer-top h2,h3 {
+    color: #fff;
+
+} 
+.footer-top h2 {
+    font-size: 18px;
+}
+.footer-top{
+    background: #111;
+    padding: 80px 0;
+}
+.segment-one {
+    color:#fff;
+    letter-spacing: 3px;
+    margin: 10px  0;
+}
+.segment-two {
+    color:#fff;
+    text-transform: uppercase;
+    
+}
+.segment-two h2::before {
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+
+}
+.segment-two ul{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+}
+.segment-two ul a{
+    text-decoration: none;
+}
+.segment-two ul li{
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    line-height: 40px;
+
+}
+.segment-two ul li a {
+    color: #999;
+    text-decoration: none;
+
+}
+.segment-three h2{
+    text-transform: uppercase;
+
+}
+.segment-three h2::before {
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+
+}
+.segment-four h2::before {
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+.segment-four h2 {
+    text-transform: uppercase;
+}
+.segment-four p {
+    color: #999;
+}
