@@ -29,7 +29,9 @@
 }
 
 /* design of card */
-
+.card {
+    border: none;
+}
 .card h2 {
     text-align: center;
     margin-top: 50px;
@@ -38,6 +40,8 @@
 .card-text, .card-title{
     text-align: center;
 }
+
+/* score card section  */
 
 .score-card h2 {
     color:#198754;
@@ -110,6 +114,19 @@
     text-transform: uppercase;
 
 }
+.segment-three a {
+    background: #494848;
+    width: 40px;
+    height:40px;
+    display:inline-block;
+    border-radius: 50%;
+
+}
+.segment-three a i{
+    font-size: 20px;
+    color:#fff ;
+    padding: 10px 12px;
+}
 .segment-three h2::before {
     content: '|';
     color: #c65039;
@@ -123,7 +140,36 @@
 }
 .segment-four h2 {
     text-transform: uppercase;
+    color: #fff;
 }
 .segment-four p {
     color: #999;
 }
+.segment-four form input[type=submit]{
+    background: #c65039;
+    border: none;
+    padding: 3px 15px;
+    /* margin-left: -1px; */
+    color: #fff;
+    text-transform: uppercase;
+}
+.footer-bottom-text {
+    text-align: center;
+    background: #000;
+    line-height: 75px;
+    color: #999;
+}
+
+    @media only screen and (min-width:768px) and (max-width:991px){
+        .md-mb-30 {
+            margin-bottom: 30px;
+        }
+    }
+    @media only screen and (max-width:767px) {
+        .sm-mb-30 {
+            margin-bottom: 30px;
+        }
+        .footer-top {
+            padding: 50px 0;
+        }
+    }
