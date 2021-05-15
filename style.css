@@ -1,6 +1,5 @@
 /* banner design  */
 .banner {
-    
     background: url(imges/banner.jpg);
     background-blend-mode: multiply;
     position: relative;
@@ -15,14 +14,11 @@
     padding:0;
     font-size: 3em;
 }
-
-
 .banner-content {
     text-align: center;
     /* background-color: rgba(0,0,0,.4); */
     color:white;
 }
-
 
 .btn-margin {
     margin-left: 5px;
@@ -41,10 +37,10 @@
     text-align: center;
 }
 
-/* score card section  */
+/* score card design*/
 
 .score-card h2 {
-    color:#198754;
+    color:#c65039;
     font-weight: bolder;
 }
 .score-card h4{
@@ -58,7 +54,6 @@
     text-align: center;
     width: 100%;
 }
-
 /* footer  */
 .footer-top p{
     color: #999;
